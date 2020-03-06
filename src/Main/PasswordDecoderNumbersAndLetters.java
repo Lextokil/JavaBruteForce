@@ -3,20 +3,22 @@ package Main;
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
 
-public class PasswordDecoderAscII {
+public class PasswordDecoderNumbersAndLetters {
 
     private static String password = "Cadu1";
     private static StringBuilder string = new StringBuilder("");
-    private static int min = 32, max = 127;
+    private static int min = 48, max = 127;
     private static long start;
-    private static final Logger LOGGER = LoggerFactory.getLogger(PasswordDecoderAscII.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(PasswordDecoderNumbersAndLetters.class);
 
     public static void loop(int index) {
         for (int i = min; i < max; i++) {
-            string.setCharAt(index, (char) i);
+            if (isNumberOrLetter(i)) {
+                string.setCharAt(index, (char) i);
+            } 
             if (index < string.length() - 1)
                 loop(index + 1);
-            //System.out.println(string);
+            // System.out.println(string);
             if (string.toString().equals(password)) {
                 System.err.println("Password Found: " + string);
                 System.err.println("It took: " + convertmillis(System.currentTimeMillis() - start));
@@ -32,12 +34,18 @@ public class PasswordDecoderAscII {
             string.append((char) min);
             for (int i = 0; i < string.length() - 1; i++) {
                 for (int j = min; j < max; j++) {
-                    string.setCharAt(i, (char) j);
-                    loop(i + 1);
+                    if (isNumberOrLetter(j)) {
+                        string.setCharAt(i, (char) j);
+                        loop(i + 1);
+                    }
                 }
             }
 
         }
+    }
+
+    public static void main2(String[] args) {
+
     }
 
 
@@ -72,6 +80,17 @@ public class PasswordDecoderAscII {
         }
 
         return (days + " day(s), " + hours + "h, " + minutes + "min, " + seconds + "s and " + millis + "ms");
+    }
+
+    private static boolean isNumberOrLetter(int character) {
+        if (character < 58) {
+            return true;
+        } else if (character < 123 && character > 96) {
+            return true;
+        } else if (character < 91 && character > 64) {
+            return true;
+        }
+        return false;
     }
 }
 
