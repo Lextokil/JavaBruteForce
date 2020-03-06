@@ -5,7 +5,7 @@ import com.sun.org.slf4j.internal.LoggerFactory;
 
 public class PasswordDecoderAscII {
 
-    private static String password = "cadu";
+    private static String password = "Test1";
     private static StringBuilder string = new StringBuilder("");
     private static int min = 32, max = 127;
     private static long start;
