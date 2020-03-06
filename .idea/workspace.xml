@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1590415d-9af8-4337-aa04-8c812c426162" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ykh1yU4J0Xrkm1bLYjvAxpzfVx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PasswordDecoderAscII">
+    <configuration name="PasswordDecoderAscII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.PasswordDecoderAscII" />
+      <module name="BruteForce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordDecoderNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.PasswordDecoderNumbers" />
+      <module name="BruteForce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PasswordDecoderAscII" />
+        <item itemvalue="Application.PasswordDecoderNumbers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1590415d-9af8-4337-aa04-8c812c426162" name="Default Changelist" comment="" />
+      <created>1583492288775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583492288775</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1046" y="252" key="#xdebugger.evaluate" timestamp="1583495001647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1046" y="252" key="#xdebugger.evaluate/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1583495001647" />
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1583513412038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1583513412038" />
+    <state width="1237" height="216" key="GridCell.Tab.0.bottom/1920.0.1280.693/0.0.1920.1040@1920.0.1280.693" timestamp="1583508221713" />
+    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1583513412038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="171" key="GridCell.Tab.0.center/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1583513412038" />
+    <state width="1237" height="216" key="GridCell.Tab.0.center/1920.0.1280.693/0.0.1920.1040@1920.0.1280.693" timestamp="1583508221713" />
+    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1583513412038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="171" key="GridCell.Tab.0.left/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1583513412038" />
+    <state width="1237" height="216" key="GridCell.Tab.0.left/1920.0.1280.693/0.0.1920.1040@1920.0.1280.693" timestamp="1583508221713" />
+    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1583513412038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="171" key="GridCell.Tab.0.right/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1583513412038" />
+    <state width="1237" height="216" key="GridCell.Tab.0.right/1920.0.1280.693/0.0.1920.1040@1920.0.1280.693" timestamp="1583508221713" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583495012305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1583495012305" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583495012305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1583495012305" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583495012305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1583495012305" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583495012305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1583495012305" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main/PasswordDecoderNumbers.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
