@@ -5,7 +5,7 @@ import com.sun.org.slf4j.internal.LoggerFactory;
 
 public class PasswordDecoderNumbers {
 
-    private static String password = "4684514684";
+    private static String password = "754286758653";
     private static StringBuilder string = new StringBuilder("");
     private static int min = 48, max = 58;
     private static long start;
@@ -27,6 +27,7 @@ public class PasswordDecoderNumbers {
 
     public static void main(String[] args) {
         start = System.currentTimeMillis();
+        System.err.println("Finding password...");
         while (true) {
             string.append((char) min);
             for (int i = 0; i < string.length() - 1; i++) {

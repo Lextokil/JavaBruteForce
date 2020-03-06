@@ -27,6 +27,7 @@ public class PasswordDecoderAscII {
 
     public static void main(String[] args) {
         start = System.currentTimeMillis();
+        System.err.println("Finding password...");
         while (true) {
             string.append((char) min);
             for (int i = 0; i < string.length() - 1; i++) {
